@@ -1,37 +1,120 @@
 ## Coursera Test
 
-You can use the [editor on GitHub](https://github.com/fartash-qazi-learner/test_Coursera/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fartash-qazi-learner/test_Coursera/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Qazi Fartash,Bachelor
+	</title>
+</head>
+<img src="/home/fartash/Documents/HTML/My_image.jpg" align="right"; width="250px"; height="200">
+<a href="/home/fartash/Documents/Fartash CV.pdf"; style="font-size: 25px">Home</a>
+<body>
+	<h1 style="font-size: 40px; text-align: left;">
+		Qazi Fartash Aziz
+	</h1>
+	<h2>
+		<strong>Bachelor,Computer Engineering</strong>
+	</h2>
+	<h3>
+		Freshly Graduate,<a href="https://www.hitecuni.edu.pk/">HITEC University,Taxila,Pakistan</a>	
+	</h3>
+	<address>
+	<p>
+		<pre style="font-size: 12px">
+			Village and Post Office,Nowsherra
+			Tehsil Pindi Gheb,
+			Dist Attock.
+			Pakistan.
+			Phone: (+92)3035500354
+			<abbr title="Email">Email:<a href="mailto:fartash.qazi1999@gmail.com">fartash.qazi1999@gmail.com</a></abbr>
+		</pre>
+	</p>
+	</address>
+	<u>
+		Introduction:
+		<ol>
+			<li>Football</li>
+			<li>Hockey</li>
+			<li>Badminton</li>
+			<li>Cricket</li>
+		</ol>
+	</u>
+	<ul>
+		<li>Football</li>
+		<li>Hockey</li>
+		<li>Badminton</li>
+		<li>Cricket</li>
+	</ul>
+	<table>
+		<tr>
+			<th scope="col">Subjects</th>
+			<th scope="col">Marks</th>
+			<th scope="col">Average</th>
+			<th scope="col">Grade</th>
+		</tr>
+		<tr>
+			<th scope="row">Maths:</th>
+			<td>78</td>
+			<td>55</td>
+			<td>A</td>
+		</tr>
+		<tr>
+			<th scope="row">English:</th>
+			<td>33</td>
+			<td>67</td>
+			<td>F</td>
+		</tr>
+		<tr>
+			<th scope="row">Physics:</th>
+			<td>41</td>
+			<td>55</td>
+			<td>C</td>
+		</tr>
+		<tr>
+			<th scope="row">Biology:</th>
+			<td>79</td>
+			<td>55</td>
+			<td>A<sup>+</sup></td>
+		</tr>
+		</tr>
+	</table><br>
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Name</th>
+				<th scope="col">Matches</th>
+				<th scope="col">Runs</th>
+				<th scope="col">Average</th>
+				<th scope="col">Srike Rate</th>
+			</tr>
+		</thead>
+		<tr>
+			<th scope="row">Fartash:</th>
+			<td>23</td>
+			<td>1254</td>
+			<td>60.2</td>
+			<td>134.5</td>
+		</tr>
+		<tr>
+			<th scope="row">Babar:</th>
+			<td>78</td>
+			<td>4945</td>
+			<td>48.2</td>
+			<td>108.0</td>
+		</tr>
+	</table>
+	<form action="http://www.example.com/login.php">
+	<p>
+		Username
+		<input type="text" name="username" size="23" maxlength="26">
+	</p>
+	<p>
+		Passwword
+		<input type="text" name="password" size="23" maxlength="12">
+	</p>
+	<p>For Comment use only!</p>
+	<textarea ></textarea>
+	</form>
+</body>
+</html>
